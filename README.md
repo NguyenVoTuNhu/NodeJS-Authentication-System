@@ -1,3 +1,78 @@
+# Nodejs_auth
+## 1. run server
+npm install express
+
+npm init -y
+
+node app.js
+
+![Run Server](/public/results/server.png)
+
+## 2. Test 
+
+Đã thêm tên và mssv trên mỗi trang giao diện
+
+![Sign Up](/public/results/signup.png)
+
+Trên MongoDB
+
+![Sign Up In MongoDB](/public/results/signup_suc.png)
+
+Signup thành công thì chuyển sang trang signin
+
+![Sign In](/public/results/signin.png)
+
+Đăng nhập thành công chuyển sang Homepage
+
+![Sign In](/public/results/homepage.png)
+
+Chọn vào thay đổi mật khẩu
+
+Nhập mật khẩu cũ và mật khẩu mới
+
+![Change Pass](/public/results/change_pass.png)
+
+Sau đó chuyển sang trang đăng nhập lại
+
+![Sign In New Pass](/public/results/signin_new_pas.png)
+
+Đã được chuyển đến trang Homepage
+
+![HomePage](/public/results/homepage1.png)
+
+Chọn chức năng Signout, được điều hướng về trang Signin
+
+![Sign in](/public/results/signin1.png)
+
+Chọn vào Quên mật khẩu
+
+Nhập lại email
+
+![Quen Pass](/public/results/forgot_pass.png)
+
+Sẽ được Email về mật khẩu mới, đồng thời chuyển hướng lại trang SignIn
+
+![Email](/public/results/email.png)
+
+Đăng nhập với mật khẩu mới
+
+![Sign in](/public/results/signin2.png)
+
+Được chuyển hướng sang trang HomePage
+
+![HomePage](/public/results/homepage2.png)
+
+Chọn Sign In With Google
+
+![Sign in](/public/results/signingg.png)
+
+Chọn tài khoản
+
+![Chon TK](/public/results/chontk.png)
+
+Đăng nhập thành công
+
+![Sign in](/public/results/thanhcong.png)
 # Node.js Authentication System
 
 This project contains a complete authentication system using Node.js, Express, and MongoDB. It includes features like sign up, sign in, sign out, password reset, and social authentication (Google). The project is structured to be scalable with separate components for models, controllers, and routes.
